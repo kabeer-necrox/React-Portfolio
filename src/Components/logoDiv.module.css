@@ -1,0 +1,31 @@
+.mainBox {
+  width: 100%;
+}
+
+.mainBox ul {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  justify-content: space-around;
+  list-style: none;
+  flex-wrap: wrap;
+}
+.mainBox ul li {
+  color: #6c757d;
+  transition: all 0.3s ease;
+  font-size: 60px;
+}
+
+.mainBox .mongo:hover {
+  color: #36a642;
+}
+
+.mainBox .express:hover {
+  color: red;
+}
+.mainBox .react:hover {
+  color: #0e90f6;
+}
+.mainBox .nodejs:hover {
+  color: #66a515;
+}
