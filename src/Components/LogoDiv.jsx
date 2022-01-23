@@ -1,10 +1,16 @@
-import React from "react";
+import React, { useEffect } from "react";
 import styles from "./logoDiv.module.css";
 import { SiMongodb, SiExpress, SiReact, SiNodedotjs } from "react-icons/si";
+import AOS from "aos";
+import "aos/dist/aos.css";
+
 const LogoDiv = () => {
+  useEffect(() => {
+    AOS.init();
+  });
   return (
     <div className={styles.mainBox}>
-      <ul>
+      <ul data-aos="fade-left">
         <li className={styles.mongo}>
           <SiMongodb />
         </li>
@@ -14,10 +20,16 @@ const LogoDiv = () => {
         <li className={styles.react}>
           <SiReact />
         </li>
-        <li className={styles.nodejs}> 
+        <li className={styles.nodejs}>
           <SiNodedotjs />
         </li>
       </ul>
+      <br />
+      <br />
+      <br />
+      <br />
+      <br />
+      <br />
     </div>
   );
 };

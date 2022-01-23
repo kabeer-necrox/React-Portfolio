@@ -1,5 +1,6 @@
 .mainBox {
   width: 100%;
+  overflow: hidden !important;
 }
 
 .mainBox ul {
@@ -8,6 +9,7 @@
   width: 100%;
   justify-content: space-around;
   list-style: none;
+  overflow: hidden !important;
   flex-wrap: wrap;
 }
 .mainBox ul li {

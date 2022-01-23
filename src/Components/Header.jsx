@@ -1,10 +1,15 @@
-import React from "react";
+import React, { useEffect } from "react";
 import { Navbar } from "./Navbar";
 import styles from "./header.module.css";
 import MyPic from "../Images/pic1.png";
 import { FaFacebook, FaWhatsapp } from "react-icons/fa";
 import { BsLinkedin, BsGithub, BsGoogle } from "react-icons/bs";
+import AOS from "aos";
+import "aos/dist/aos.css";
 const Header = () => {
+  useEffect(() => {
+    AOS.init();
+  });
   return (
     <div className={styles.headerMainBox}>
       <Navbar />
@@ -33,7 +38,7 @@ const Header = () => {
           <button>SEE MY WORK</button>
         </div>
         <div className={styles.picture}>
-          <img src={MyPic} />
+          <img data-aos="fade-down"  data-aos-duration="2000" src={MyPic} />
         </div>
       </section>
     </div>

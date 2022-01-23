@@ -8,6 +8,7 @@ function App() {
     <div className="mainBox">
       <Header />
       <LogoDiv />
+      
     </div>
   );
 }
