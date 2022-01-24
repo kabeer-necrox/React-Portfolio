@@ -1,33 +1,36 @@
-.mainBox {
+.logomainBox {
   width: 100%;
   overflow: hidden !important;
+  /* border: 1px solid lime; */
+  height: 120px;
 }
 
-.mainBox ul {
+.logomainBox ul {
   display: flex;
-  justify-content: center;
   width: 100%;
   justify-content: space-around;
   list-style: none;
   overflow: hidden !important;
   flex-wrap: wrap;
+  /* align-items: center; */
 }
-.mainBox ul li {
+.logomainBox ul li {
   color: #6c757d;
   transition: all 0.3s ease;
   font-size: 60px;
+  display: inline-block;
 }
 
-.mainBox .mongo:hover {
+.logomainBox .mongo:hover {
   color: #36a642;
 }
 
-.mainBox .express:hover {
+.logomainBox .express:hover {
   color: red;
 }
-.mainBox .react:hover {
+.logomainBox .react:hover {
   color: #0e90f6;
 }
-.mainBox .nodejs:hover {
+.logomainBox .nodejs:hover {
   color: #66a515;
 }

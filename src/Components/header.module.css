@@ -11,7 +11,7 @@
   margin: 20px 0;
   width: 100%;
   flex-wrap: wrap;
-  min-height: 90vh;
+  min-height: 80vh;
 }
 .intro {
   color: white;
@@ -74,5 +74,8 @@
   }
   .intro h1 {
     font-size: 36px;
+  }
+  .headerCOntent {
+    min-height: 50vh;
   }
 }

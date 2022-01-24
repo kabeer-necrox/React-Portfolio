@@ -9,7 +9,7 @@ const LogoDiv = () => {
     AOS.init();
   });
   return (
-    <div className={styles.mainBox}>
+    <div className={styles.logomainBox}>
       <ul data-aos="fade-left">
         <li className={styles.mongo}>
           <SiMongodb />

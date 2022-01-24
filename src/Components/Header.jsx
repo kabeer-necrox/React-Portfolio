@@ -15,9 +15,9 @@ const Header = () => {
       <Navbar />
       <section className={styles.headerCOntent}>
         <div className={styles.intro}>
-          <h3>HI There !</h3>
-          <h1>I AM JAFFAR AMAN</h1>
-          <h3>MERN Stack Developer</h3>
+          <h3 data-aos="fade-up" data-aos-duration="2000">HI There !</h3>
+          <h1 data-aos="fade-down" data-aos-duration="3000">I AM JAFFAR AMAN</h1>
+          <h3 data-aos="fade-up" data-aos-duration="2000">MERN Stack Developer</h3>
           <div className={styles.socialIcon}>
             <li>
               <FaFacebook size={28} />
