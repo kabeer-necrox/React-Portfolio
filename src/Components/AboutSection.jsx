@@ -1,14 +1,22 @@
-import React from "react";
+import React, { useEffect } from "react";
 import styles from "./aboutsection.module.css";
 import MyPic from "../Images/pic1.png";
+import Aos from "aos";
 
 const AboutSection = () => {
+  useEffect(() => {
+    Aos.init();
+  });
   return (
     <div className={styles.mainBox}>
       <section className={styles.aboutPic}>
         <img src={MyPic} alt="" />
       </section>
-      <section className={styles.aboutme}>
+      <section
+        className={styles.aboutme}
+        data-aos="fade-left"
+        data-aos-duration="2000"
+      >
         <h5>About Me</h5>
         <h1>HELLO WORLD</h1>
         <p>

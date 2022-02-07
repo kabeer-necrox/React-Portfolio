@@ -10,7 +10,7 @@ const LogoDiv = () => {
   });
   return (
     <div className={styles.logomainBox}>
-      <ul data-aos="fade-left">
+      <ul data-aos="fade-left" data-aos-duration="1000">
         <li className={styles.mongo}>
           <SiMongodb />
         </li>
