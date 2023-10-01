@@ -1,6 +1,7 @@
 import React, { useEffect } from "react";
 import styles from "./ContactForm.module.css";
 import Pic1 from "../Images/contact1.jpg";
+import kabir from "../Images/kabir.jpeg"
 import AOS from "aos";
 const ContactForm = () => {
   useEffect(() => {
@@ -9,13 +10,13 @@ const ContactForm = () => {
   return (
     <div className={styles.mainBox} data-aos="fade-up">
       <section className={styles.contactPic}>
-        <img src={Pic1} alt="" />
+        <img src={kabir} alt="" />
       </section>
       <section className={styles.contactForm}>
         <div className={styles.formBox}>
           <section className={styles.formTop}>
-            <h2>amanjaffar50@gmail.com</h2>
-            <h2>+92346-2528569</h2>
+            <h2>khushkabeer.com</h2>
+            <h2>+92349-5619460</h2>
           </section>
           <section className={styles.formBottom}>
             <div>

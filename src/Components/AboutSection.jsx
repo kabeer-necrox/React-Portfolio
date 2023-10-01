@@ -1,6 +1,7 @@
 import React, { useEffect } from "react";
 import styles from "./aboutsection.module.css";
 import MyPic from "../Images/pic1.png";
+import kabir from "../Images/kabir.jpeg"
 import Aos from "aos";
 
 const AboutSection = () => {
@@ -10,7 +11,8 @@ const AboutSection = () => {
   return (
     <div className={styles.mainBox}>
       <section className={styles.aboutPic}>
-        <img src={MyPic} alt="" />
+        {/* <img src={MyPic} alt="" /> */}
+        <img src={kabir} alt="" />
       </section>
       <section
         className={styles.aboutme}

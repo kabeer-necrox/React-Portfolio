@@ -2,6 +2,7 @@ import React, { useEffect } from "react";
 import { Navbar } from "./Navbar";
 import styles from "./header.module.css";
 import MyPic from "../Images/pic1.png";
+import kabir from "../Images/kabir.jpeg"
 import { FaFacebook, FaWhatsapp } from "react-icons/fa";
 import { BsLinkedin, BsGithub, BsGoogle } from "react-icons/bs";
 import AOS from "aos";
@@ -19,7 +20,7 @@ const Header = () => {
             HI There !
           </h3>
           <h1 data-aos="fade-down" data-aos-duration="3000">
-            I AM JAFFAR AMAN
+            I AM KHUSH KABEER
           </h1>
           <h3 data-aos="fade-up" data-aos-duration="2000">
             MERN Stack Developer
@@ -45,7 +46,7 @@ const Header = () => {
           <button>SEE MY WORK</button>
         </div>
         <div className={styles.picture}>
-          <img data-aos="fade-down" data-aos-duration="2000" src={MyPic} />
+          <img data-aos="fade-down" data-aos-duration="2000" src={kabir} />
         </div>
       </section>
     </div>
